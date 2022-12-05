@@ -1,6 +1,6 @@
 {
-  "name": "extension-factory",
-  "displayName": "Extension Factory",
+  "name": "vscode-studio",
+  "displayName": "Extension Studio",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -17,10 +17,9 @@
     "viewsContainers": {
       "activitybar": [
         {
-          "id": "contributions",
+          "id": "vscode-studio",
           "title": "Extension Studio",
-          "icon": "resources/icon.png"
-          
+          "icon": "resources/icon.svg"
         }
       ]
     },
@@ -31,13 +30,7 @@
                 "name": "Contribution Points"
             }
         ]
-    },
-    "commands": [
-      {
-        "command": "extfactory.main_view",
-        "title": "Main View"
-      }
-    ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
